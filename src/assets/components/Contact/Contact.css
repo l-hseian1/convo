@@ -1,0 +1,36 @@
+.info{
+    padding: 20px 70px;
+    margin: 30px 0;
+}
+.contactInfo{
+    padding: 0 70px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contactInfo .contactNum{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contactInfo .contactNum .number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactInfo .contactNum .number img{
+    width: 61px;
+    height: 56px;
+}
+.contactInfo .contactNum .number a{
+    text-decoration: none;
+    color: rgb(120, 63, 124);
+}
+.contactInfo .contactNum .number p{
+    color: rgb(120, 63, 124);
+}

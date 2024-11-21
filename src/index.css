@@ -1,0 +1,13 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+ /*  background-color: rgb(155, 146, 163); */
+ background-image:url(./images/pexels-mart-production-8472950.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}

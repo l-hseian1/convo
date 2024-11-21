@@ -1,0 +1,54 @@
+.Container{
+    width: 100%;
+    height: 100%;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.Container .left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    width: 60%;
+}
+.Container .left-container h1{
+    padding-bottom: 15px;
+    color: rgb(79, 8, 88);
+}
+.Container .left-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.8rem;
+    color:rgb(120, 63, 124) ;
+}
+.Container .left-container ul li{
+    list-style: circle rgb(120, 63, 124);
+    font-size: 1.5rem;
+}
+.Container .right-container{
+    width: 40%;
+}
+.Container .right-container img{
+    width: 60%;
+    height:60% ;
+}
+.Contact{
+    width: 100%;
+    height: 100%;
+    padding: 10px 70px;
+}
+.Contact button{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(96, 63, 100);
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+}
